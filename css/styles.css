@@ -47,7 +47,7 @@
 }
 
 .button1{
-    font-family: inherit; font-weight: 700; font-size: 16px; color: rgba(255, 255, 255, 1); text-align: center; border: 0; background-color: rgba(33, 150, 243, 1); display: flex; width: 200px; height: 50px; justify-content: center; align-items: center; margin:0 auto;
+    font-family: inherit; font-weight: 700; font-size: 16px; color: rgba(255, 255, 255, 1); text-align: center; border: 0; background-color: rgba(33, 150, 243, 1); display: flex; width: 200px; height: 50px; justify-content: center; align-items: center; margin:0 auto; margin-top:30px;
 }
 .buttons{
     font-family: inherit; font-weight: 500; font-size: 16px; border: 0; background-color: rgba(255, 255, 255, 1); cursor: pointer; width:121px; height:38px; background-color: rgba(245, 244, 250, 1); border-radius: 4px;
@@ -152,9 +152,10 @@ margin-right:50px;
 }
 .h1-wrapper{
     background-color: rgba(47, 48, 58, 1);
-    margin: 0 auto; 
-    padding-bottom: 200px;
-    padding-top: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+    padding-bottom:200px;
 }
 .text{
     display: flex;
@@ -177,8 +178,6 @@ margin-right:50px;
     flex-basis: calc((100% - 60px) /3)
 }
 .section-background{
-    width: 1200px;
-    height:648px;
     margin: 0 auto;
     background-color: rgba(245, 244, 250, 1);
 }
@@ -233,7 +232,6 @@ margin-right:50px;
     border-color: rgba(238, 238, 238, 1);
 }
 .footer{
-    width:1200px;
     height:252px;
     margin: 0 auto;
     background-color: rgba(47, 48, 58, 1);
